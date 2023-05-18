@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("Module Credit",4);
                 intent.putExtra("Venue","W65D");
                 startActivity(intent);
+
             }
         });
     }
