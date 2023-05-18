@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         tvPassModDetails2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ModuleDetailActivity2.class);
+                Intent intent = new Intent(MainActivity.this, ModuleDetailActivity.class);
                 intent.putExtra("Module Code","C218");
                 intent.putExtra("Module Name","UI/UX Design for Apps");
                 intent.putExtra("Academic Year",2023);
